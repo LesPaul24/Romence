@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'tahuregular';
+    src: url('font/tahu-webfont.woff2') format('woff2'),
+         url('font/tahu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'munich_regular';
+    src: url('font/munich_sans-webfont.woff2') format('woff2'),
+         url('font/munich_sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'yellow_peasultra_light';
+    src: url('font/yellowpeas-ultralight-webfont.woff2') format('woff2'),
+         url('font/yellowpeas-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+body
+{
+    background-image: url('images/fondbleu.jpg');
+    background-repeat: no-repeat;
+    font-family:'yellow_peasultra_light', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: white;
+    max-height: 100%;
+}
+.l1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 5px;
+    top: -470px;
+    background: rgb(255, 187, 0);
+    margin: auto;
+    
+}
+.l2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 5px;
+    top: 200px;
+    background: rgb(255, 187, 0);
+    margin: auto;
+    
+}
+.l3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5px;
+    height: 680px;
+    top: -480px;
+    background: rgb(255, 187, 0);
+    right: 750px;
+    margin: auto;
+    
+}
+.l4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5px;
+    height: 680px;
+    top: -1160px;
+    background: rgb(255, 187, 0);
+    left: 750px;
+    margin: auto;
+    
+}
+
+h1 {
+    font-family:'munich_regular', sans-serif;
+    position: relative;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-weight: 50px;
+    font-size: 140px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+
+}
+h2 {
+    font-weight: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+h2 span {
+    position: relative;
+}
+.rec {
+    font-family: 'yellow_peasultra_light', sans-serif;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 30px;
+    font-size: 40px;
+    color: white;
+      
+}
+.container-btns {
+    position: relative;
+    top: 50px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-first {
+    border: 2px solid white;
+    outline: none;
+    background:transparent;
+    font-size: 30px;
+    padding:20px;
+    width: 300px;
+    color: white;
+    cursor:pointer;
+}
+
+.btn-first:nth-child(1){
+    margin-right: 30px;
+
+}
+.btn-first:hover {
+    transition: all 0.3s ease-in-out;
+    background: white;
+    color: #333;
+}
+
+h3 {
+    font-family: 'yellow_peasultra_light', sans-serif;
+    font-size: 40px;
+    font-weight: 30px;
+}
+.cover {
+    font-family:'yellow_peasultra_light', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 20%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    margin: 10px 0;
+    background: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+}
+.logo-medias {
+    width: 40px;
+    height: 40px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #333;
+}

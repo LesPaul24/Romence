@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'tahuregular';
+    src: url('font/tahu-webfont.woff2') format('woff2'),
+         url('font/tahu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'munich_regular';
+    src: url('font/munich_sans-webfont.woff2') format('woff2'),
+         url('font/munich_sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'yellow_peasultra_light';
+    src: url('font/yellowpeas-ultralight-webfont.woff2') format('woff2'),
+         url('font/yellowpeas-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: linear-gradient(rgb(119, 235, 255), rgb(195, 238, 255));
+    font-family:'yellow_peasultra_light';
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: white;
+    max-height: 100%;
+}
+
+h1 {
+    font-family:'yellow_peasultra_light';
+    position: relative;
+    font-size: 100px;
+    text-shadow: 3px 3px 5px black;
+}

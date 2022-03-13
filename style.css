@@ -32,17 +32,20 @@ body
     overflow-y: hidden;
     color: white;
     max-height: 100%;
+    width: 100%;
 }
 .l1 {
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1500px;
+    width: 99%;
     height: 5px;
-    top: -470px;
+    top: -82px;
     background: rgb(255, 187, 0);
     margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .l2 {
@@ -50,37 +53,11 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1500px;
+    width: 99%;
     height: 5px;
     top: 200px;
     background: rgb(255, 187, 0);
-    margin: auto;
-    
-}
-.l3 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5px;
-    height: 680px;
-    top: -480px;
-    background: rgb(255, 187, 0);
-    right: 750px;
-    margin: auto;
-    
-}
-.l4 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5px;
-    height: 680px;
-    top: -1160px;
-    background: rgb(255, 187, 0);
-    left: 750px;
-    margin: auto;
+    margin-right: 10%;
     
 }
 
